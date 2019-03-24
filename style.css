@@ -1,0 +1,40 @@
+body{
+	background-color:silver ;
+}
+html{
+	font-family: Arial;
+
+}
+header nav ul {
+	list-style: none;
+	margin: none;
+	padding: none;
+}
+header nav ul li{
+	width: 200px;
+	height: 18px;
+	background-color: rgba(0,0,0,0.80);
+	text-align: center;   
+    
+}
+header nav ul li a{
+	display: block; 
+	height: 19px;
+}
+header nav ul li a:hover{
+	background-color: violet;
+	opacity:0,5;
+}
+header nav ul li ul li{
+	display:none;
+} 
+header nav ul li:hover ul li{
+	display:block;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+

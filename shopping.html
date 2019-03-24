@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+     <script type="text/javascript" src="script.js"></script>
+     <link rel="stylesheet" type="text/css" href="style2.css"/>
+    
+  </head>
+  <body>
+ 	<form name="Shopping Form" id ="form">
+
+ 		<center><h2>Shopping Form</h2></center>
+ 			<label>
+				<input type="checkbox" id = "important" value="Group">Is important</label>
+ 			<label>
+ 				<input type="checkbox" id ="grocerie" value="Group">Can be bought in groceries
+ 			</label>
+ 			<br>
+ 			<br>
+ 			<br>
+ 			Item to buy 
+ 				<input type="text" id ="item" placeholder="please choose your item "/>
+ 			
+ 					<button type ="button" onclick="addItem()" >Add </button>
+ 				<h3>Shopping list:</h3>
+ 					<ul id="liste">
+
+ 					</ul>
+ 						<br>
+ 						<br>
+ 			Item to move 
+ 				<input type="text" id="item2" placeholder="please choose your item "/>
+
+ 					<button type="button" onclick="removeItem()">remove</button>
+ 			
+ 	</form>
+</body>
+</html>
